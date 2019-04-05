@@ -1,0 +1,71 @@
+/*
+*Chloe Wenner
+*4/9/19
+*Padua Panda Travel Project
+*/
+
+/* The universal selector*?
+
+* {
+} 
+/* Body properties here */
+
+body {
+background-color: azure;/*Applies to the whole background in the webpage*/
+width: 60%; /*Makes information on page 60% as the width*/
+margin: auto;
+}
+
+p{
+color: grey;
+font-family: Verdana 
+/* Applies to all paragraphs */
+}
+
+h1{
+color:darkblue;
+background-color: lavenderblush;
+font-family: Tahoma
+/* Applies to all h1 */
+}
+
+h2{
+color:darkblue;
+background-color: paleturquoise;
+font-family: Tahoma
+/* Applies to all h2 */
+}
+
+li{
+color: darkblue;
+font-family: Verdana 
+/* Applies to all list items */
+}
+
+figcaption{
+color:skyblue;
+font-family: Verdana
+/* Applies to all captions on pictures */
+}
+
+blockquote{
+color: grey;
+font-family: Verdana;
+/* Applies to all quotes */
+}
+
+
+/*Makes the border on the table a solid gray*/
+table, td, th { border: 1px solid gray; }
+
+table { border-collapse : collapse; }/* Makes the table more readable and bigger*/
+thead{ background-color: paleturquoise}/* Applies to the thead section of the table */
+tbody{ background-color: lightyellow} /*Applies to the thead section of the table*/
+
+
+#shopping{width: 300px; height: 200px;} /*Applies to the shopping picture to make it a certain width and height*/
+#canoeing{width: 300px; height: 200px}/*Applies to the canoeing picture to make it a certain width and height*/
+#snorkeling{width: 300px; height: 200px}/*Applies to the snorkeling picture to make it a certain width and height*/
+
+
+
